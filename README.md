@@ -46,10 +46,10 @@ GIF created with ...
 ## Notes
 
 ## Describe any challenges encountered while building the app.
-- ** Managing component state and prop flow: I kept the cards state in App.jsx and passed onAdd / card array down to components to keep data flow simple.
-- ** Implementing the study flip animation: CSS 3D transforms (rotateY) and backface-visibility required careful layering to make the flip smooth and accessible.
-- ** Responsive layout: balancing panel sizes and spacing so the left (form/list) and right (study) panels look good on desktop and stack nicely on mobile.
-- ** Background image handling: opted to use a static image path (you can put images in public/ for easy referencing) and added a subtle overlay so the study card remains readable.
+- **Managing component state and prop flow: I kept the cards state in App.jsx and passed onAdd / card array down to components to keep data flow simple.
+- **Implementing the study flip animation: CSS 3D transforms (rotateY) and backface-visibility required careful layering to make the flip smooth and accessible.
+- **Responsive layout: balancing panel sizes and spacing so the left (form/list) and right (study) panels look good on desktop and stack nicely on mobile.
+- **Background image handling: opted to use a static image path (you can put images in public/ for easy referencing) and added a subtle overlay so the study card remains readable.
 
 ## License
 
