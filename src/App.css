@@ -63,6 +63,13 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:var(--bg);marg
 .panel.right.playing{background-image: linear-gradient(rgba(255,255,255,0.12), rgba(255,255,255,0.12)), url('/src/assets/background.png');background-size:cover;background-position:center}
 .panel.right.playing .study-root{background:transparent}
 
+/* study input and feedback */
+.study-card-form input{padding:8px;border:1px solid #d1d5db;border-radius:6px}
+.study-card-form .small{padding:6px 10px}
+.small[disabled], button[disabled]{opacity:0.45;cursor:not-allowed}
+.feedback-correct{color:green}
+.feedback-incorrect{color:red}
+
 @media (max-width:800px){
   .app-main{flex-direction:column}
   .left{flex:0 0 auto;max-width:none}
